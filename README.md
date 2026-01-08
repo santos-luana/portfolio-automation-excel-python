@@ -1,4 +1,4 @@
-# 📊 Report Automation with Python and Excel
+# Report Automation with Python and Excel
 
 ## Context
 Operational and industrial environments often rely on repetitive Excel reports built manually from multiple data sources. This process is time-consuming, error-prone, and limits the analyst’s ability to focus on insights rather than execution.
@@ -30,14 +30,23 @@ The solution was designed with operational KPIs in mind, commonly used in indust
 ---
 
 ## Project Structure
-portfolio-automation-excel-python/
-├── data/
-│ └── raw/ # Raw input files
-├── scripts/ # Automation scripts
-├── output/ # Generated reports
-├── README.md
-├── requirements.txt
-└── .gitignore
+- `data/raw/`  
+  Raw input Excel files used by the automation script.
+
+- `scripts/`  
+  Python scripts responsible for data cleaning and report generation.
+
+- `output/`  
+  Automatically generated Excel reports.
+
+- `README.md`  
+  Project documentation and usage instructions.
+
+- `requirements.txt`  
+  Python dependencies required to run the project.
+
+- `.gitignore`  
+  Files and folders ignored by Git version control.
 
 ---
 
